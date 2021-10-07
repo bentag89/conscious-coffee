@@ -1,0 +1,456 @@
+body {
+  background-color: #f9f9f9;
+  margin: 0;
+}
+.home {
+  margin-top: 40px;
+}
+button {
+  background-color: rgba(212, 158, 130, 0.75);
+  color: black;
+  font-weight: 700;
+  border-radius: 100px;
+  font-family: "New Tegomin", serif;
+  width: 100px;
+}
+p {
+  font-size: 1.2em;
+}
+h1 {
+  text-align: center;
+  padding: 50px 20px;
+  color: #a07661;
+  font-size: 2em;
+}
+h2 {
+  font-size: 1.5em;
+  margin-top: 0;
+}
+header,
+footer {
+  background-color: #a07661;
+}
+nav {
+  display: none;
+  position: relative;
+}
+nav ul {
+  position: absolute;
+  background-color: #a07661;
+  margin-top: 0;
+  width: 100%;
+  padding: 20px 0px;
+}
+nav ul li {
+  text-align: center;
+  list-style-type: none;
+  text-decoration: none;
+  color: black;
+}
+iframe {
+  max-width: 100%;
+}
+#hamburger-menu {
+  display: none;
+}
+#hamburger-menu:checked ~ nav {
+  display: block;
+}
+h1,
+h2,
+h3,
+p,
+a,
+label,
+.total,
+.checkout {
+  font-family: "New Tegomin", serif;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+footer li {
+  list-style-type: none;
+  font-size: 0.95em;
+  font-weight: 700;
+}
+.fa-bars {
+  color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 20px;
+  right: 30px;
+}
+.fa-bars:hover {
+  cursor: pointer;
+}
+.title,
+.footer {
+  max-width: 200px;
+  display: flex;
+  margin: auto;
+  padding: 20px;
+}
+main img {
+  width: 100%;
+}
+main {
+  padding: 20px;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+.current {
+  color: white;
+}
+.footerul {
+  display: flex;
+  justify-content: center;
+  padding: 20px 20px 0px 20px;
+  text-align: center;
+}
+.fa-circle {
+  font-size: 0.5em;
+  padding: 10px;
+}
+.fa-instagram,
+.fa-facebook-square,
+.fa-twitter-square,
+.fa-youtube {
+  padding: 10px;
+  font-size: 2em;
+  display: inline-flex;
+  margin: auto;
+  margin: 40px 0px 20px 0px;
+}
+.flag {
+  max-width: 30px;
+  padding: 10px 0;
+  margin-left: 30px;
+}
+main {
+  max-width: 1000px;
+  margin: auto;
+}
+/* Home page */
+
+.socialhome {
+  color: rgba(0, 0, 0, 0.5);
+}
+.cta {
+  background-color: rgba(131, 75, 47, 0.75);
+  color: black;
+  border-radius: 100px;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  max-width: 150px;
+  margin: auto;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+.cta:hover {
+  background-color: rgba(131, 75, 47, 0.4);
+  color: black;
+  border-radius: 100px;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  max-width: 100px;
+  margin: auto;
+}
+.pright {
+  text-align: right;
+  margin-bottom: 40px;
+}
+
+/* Locations */
+
+.locations a {
+  text-decoration: underline;
+}
+.smallerheading {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+/* Bergen */
+
+.bergen {
+  max-width: 500px;
+  margin: auto;
+}
+
+/* Our Story */
+
+.coffeebook,
+.pourover {
+  max-width: 300px;
+  display: flex;
+  margin: auto;
+}
+
+/* Contact */
+
+.socialcont,
+.socialhome {
+  text-align: center;
+  font-size: 1.5em;
+}
+hr {
+  border-top: 4px dashed rgba(0, 0, 0, 0.5);
+  margin: 20px;
+}
+.contact {
+  text-align: center;
+}
+
+/* Store */
+.cof {
+  display: flex;
+  margin: 10px;
+}
+.cof > div {
+  margin: 30px;
+}
+.coffeebag {
+  margin-top: 10px;
+  margin-bottom: 60px;
+  max-width: 100%;
+}
+button:hover {
+  cursor: pointer;
+}
+.price {
+  text-align: center;
+  font-weight: 700;
+}
+.basket {
+  display: none;
+  border: 3px solid black;
+  border-radius: 50px;
+  max-width: 300px;
+  margin: auto;
+}
+.basketimage {
+  max-width: 100px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+h3 {
+  text-align: center;
+  font-size: 1em;
+}
+.total,
+.checkout,
+.basket-h2 {
+  text-align: center;
+}
+.checkout {
+  margin: 20px 0px;
+  font-size: 1.2em;
+  text-decoration: underline;
+}
+.checkout:hover {
+  text-transform: uppercase;
+}
+.total {
+  font-weight: 600;
+}
+.fa-shopping-basket {
+  margin-left: 135px;
+  font-size: 1.5em;
+  bottom: 200px;
+  top: 400px;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+}
+
+/* Sign up */
+
+.form-error {
+  display: none;
+  color: darkred;
+  font-size: 0.9rem;
+  margin-top: 2px;
+}
+
+input {
+  margin: 10px 0;
+}
+
+form {
+  background-color: darkgray;
+  max-width: 400px;
+  padding: 50px;
+  margin: auto;
+  text-align: center;
+  margin-top: 50px;
+}
+
+label {
+  font-weight: 700;
+}
+.indication {
+  text-align: center;
+  font-size: 1em;
+}
+.success,
+.discount {
+  text-align: center;
+}
+.success {
+  color: darkgreen;
+}
+
+/* Product Specific */
+
+.button-specific {
+  text-align: center;
+}
+.specific-details {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.coffeebagspec {
+  max-width: 500px;
+  margin: auto;
+}
+.specific-name {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+/* Checkout */
+
+.checkout-items {
+  border: 2px solid black;
+  border-radius: 50px;
+  max-width: fit-content;
+  padding: 40px;
+  margin: auto;
+}
+/* Media Queries */
+
+@media (min-width: 500px) {
+  .fa-instagram,
+  .fa-facebook-square,
+  .fa-twitter-square,
+  .fa-youtube {
+    padding: 20px;
+    font-size: 2em;
+  }
+  .fa-bars {
+    font-size: 2em;
+    margin-right: 30px;
+  }
+  .flag {
+    max-width: 40px;
+  }
+  .coffeebag {
+    max-width: 300px;
+  }
+}
+@media (min-width: 600px) {
+  h1 {
+    font-size: 3em;
+  }
+  h2 {
+    font-size: 2em;
+  }
+  .title,
+  .footer {
+    max-width: 300px;
+  }
+  .contact {
+    padding: 40px;
+  }
+  .footerul {
+    font-size: 1.5em;
+  }
+  .fa-circle {
+    padding: 15px 20px;
+  }
+  p {
+    font-size: 1.5em;
+  }
+  .cta,
+  .cta:hover {
+    max-width: 200px;
+    padding: 30px;
+  }
+  .cta a {
+    font-size: 1.5em;
+  }
+  nav ul li {
+    font-size: 1.5em;
+  }
+  .fa-envelope,
+  .fa-comment-alt,
+  .fa-phone-alt {
+    font-size: 2em;
+  }
+  .smallerheading {
+    font-size: 3em;
+  }
+  .fa-instagram,
+  .fa-facebook-square,
+  .fa-twitter-square,
+  .fa-youtube {
+    padding: 40px;
+    font-size: 2.5em;
+  }
+  .contact p {
+    font-size: 2em;
+  }
+  button {
+    padding: 10px 30px;
+    width: 180px;
+    font-size: 1em;
+  }
+}
+@media (min-width: 700px) {
+  .coffeebook,
+  .pourover {
+    max-width: 500px;
+    display: flex;
+    margin: auto;
+  }
+  .cof {
+    margin-left: 100px;
+  }
+  .product-name {
+    text-align: center;
+  }
+}
+@media (min-width: 800px) {
+  .homeimg,
+  .map {
+    max-width: 800px;
+    display: flex;
+    margin: auto;
+  }
+  .fa-instagram,
+  .fa-facebook-square,
+  .fa-twitter-square,
+  .fa-youtube {
+    padding: 40px;
+    font-size: 3em;
+  }
+}
+
+@media (min-width: 1100px) {
+  .basket {
+    max-width: 800px;
+    min-width: 300px;
+    position: absolute;
+    margin-left: 700px;
+    margin-top: -2200px;
+    max-height: fit-content;
+    padding: 20px;
+  }
+}
